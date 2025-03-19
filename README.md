@@ -1,8 +1,11 @@
 The JSON annotation file of the original TACO dataset can be converted into a dataset format that conforms to YOLO training
 
+**Actually,other data of json format also can use this code to convert**
+
 **main train of thought**
+
 **Requirements for annotation information:**
-● Category number for each target object
+Category number for each target object
 The center position (x, y) of the target object in the image
 The width and height of the target object (w, h)
 
@@ -11,3 +14,5 @@ The width and height of the target object (w, h)
 2. Traverse all location information to determine if there is a txt named after the image ID,
 Do not exist -->Use the image ID to create a txt file, write the bbox position of the category and box on one line
 Existence ->Open this txt file and write line breaks to the bbox of the category and box
+
+
