@@ -1,8 +1,7 @@
 The JSON annotation file of the original TACO dataset can be converted into a dataset format that conforms to YOLO training
 
 **main train of thought**
-
-Requirements for annotation information:
+**Requirements for annotation information:**
 ● Category number for each target object
 The center position (x, y) of the target object in the image
 The width and height of the target object (w, h)
